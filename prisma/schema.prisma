@@ -17,7 +17,7 @@ model User {
   phone    Int?     @unique
   email    String?
   name     String
-  avatar   String
+  avatar   String?
   createAt DateTime @default(now())
   updateAt DateTime @updatedAt
 
